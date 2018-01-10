@@ -33,3 +33,10 @@ echo 'alias qark="python /Users/brandon.williams/tools/qark/qark/qarkMain.py" >>
 sudo apt-get install adb;
 firefox https://dl.google.com/dl/android/studio/ide-zips/3.0.1.0/android-studio-ide-171.4443003-linux.zip;
 firefox https://portswigger.net/burp/releases/download?product=community&version=1.7.30&type=jar;
+wget https://nmap.org/dist/nmap-7.60.tar.bz2
+bzip2 -cd nmap-7.60.tar.bz2 | tar xvf -
+cd nmap-7.60
+./configure
+make
+su root
+make install
