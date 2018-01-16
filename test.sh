@@ -47,4 +47,7 @@ sudo apt-get install firefox-esr -y;
 wget https://fpdownload.adobe.com/get/flashplayer/pdc/28.0.0.137/flash_player_npapi_linux.x86_64.tar.gz --no-check-certificate;
 tar -zxvf flash_player_npapi_linux.x86_64.tar.gz;
 sudo cp libflashplayer.so /usr/lib/mozilla/plugins/;
+cd /usr/share/wordlists/;
+gunzip rockyou.txt.gz;
+cd ~;
 
