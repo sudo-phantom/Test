@@ -30,7 +30,7 @@ cd linkedin;
 sudo make;
 sudo make install;
 echo 'alias qark="python /Users/brandon.williams/tools/qark/qark/qarkMain.py" >> ~/.profile';
-sudo apt-get install adb;
+sudo apt-get install adb -y;
 wget https://dl.google.com/dl/android/studio/ide-zips/3.0.1.0/android-studio-ide-171.4443003-linux.zip --no-check-certificate;
 wget https://portswigger.net/burp/releases/download?product=community&version=1.7.30&type=jar --no-check-certificate;
 cd ~/tools;
