@@ -79,7 +79,13 @@ wget http://search.maven.org/remotecontent?filepath=org/python/jython-standalone
 cd ~;
 cls;
 echo "open burp and finish installing plugins";
-#cd ~/tools;
+cls;
+echo "INSTALLING Sn1per, Thanks 1n3 aka darn you Tooker";
+sleep 3;
+git clone https://github.com/1N3/Sn1per.git;
+cd Sn1per/;
+sh install.sh;
+cd ~/tools;
 #wget https://github.com/Arachni/arachni/releases/download/v1.5.1/arachni-1.5.1-0.5.12-linux-x86_64.tar.gz;
 #tar -zxvf arachni-1.5.1-0.5.12-linux-x86_64.tar.gz;
 #cd arachni-1.5.1-0.5.12;
