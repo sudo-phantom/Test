@@ -1,5 +1,6 @@
 sudo apt update -y -q;
 echo "updating system with apt";
+sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev postgresql-client libpq5 libpq-dev libpcap0.8-dbg libpcap0.8-dev sqlite3 libsqlite3-dev -y -q;
 sudo mkdir ~/scripts ;
 sudo mkdir ~/projects ;
 sudo apt install ruby -q -y;
@@ -97,7 +98,6 @@ sudo apt install keepnote -q -y;
 echo "INSTALLING METASPLOIT";
 sleep 5;
 cd /opt;
-sudo apt-get install build-essential patch ruby-dev zlib1g-dev liblzma-dev postgresql-client libpq5 libpq-dev libpcap0.8-dbg libpcap0.8-dev sqlite3 libsqlite3-dev -y -q;
 sudo git clone https://github.com/rapid7/metasploit-framework.git;
 cd metasploit-framework;
 sudo gem install bundler;
