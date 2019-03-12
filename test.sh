@@ -1,5 +1,4 @@
 sudo apt update -y -q;
-sudo -i;
 echo "updating system with apt";
 sudo mkdir ~/scripts ;
 sudo mkdir ~/projects ;
@@ -42,7 +41,7 @@ sudo wget https://dl.google.com/dl/android/studio/ide-zips/3.0.1.0/android-studi
 sudo wget https://portswigger.net/burp/releases/download?product=community&version=1.7.30&type=jar --no-check-certificate;
 cd ~/tools;
 sudo wget https://nmap.org/dist/nmap-7.70.tar.bz2 --no-check-certificate;
-bzip2 -cd nmap-7.70.tar.bz2 | tar xvf -;
+sudo bzip2 -cd nmap-7.70.tar.bz2 | tar xvf -;
 cd nmap-7.70;
 ./configure;
 sudo make;
