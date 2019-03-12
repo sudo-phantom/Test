@@ -1,4 +1,5 @@
 sudo apt update -y -q;
+sudo -i;
 echo "updating system with apt";
 sudo mkdir ~/scripts ;
 sudo mkdir ~/projects ;
