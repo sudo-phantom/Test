@@ -44,7 +44,7 @@ cd ~/tools;
 sudo wget https://nmap.org/dist/nmap-7.70.tar.bz2 --no-check-certificate;
 sudo bzip2 -cd nmap-7.70.tar.bz2 | sudo tar xvf -;
 cd nmap-7.70;
-./configure;
+sudo ./configure;
 sudo make;
 sudo make install;
 msfupdate;
